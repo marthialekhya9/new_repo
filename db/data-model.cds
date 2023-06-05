@@ -18,3 +18,9 @@ entity Entity1
     key ID : UUID
         @Core.Computed;
 }
+
+entity Entity2
+{
+    key ID : UUID
+        @Core.Computed;
+}

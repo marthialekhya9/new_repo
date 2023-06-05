@@ -6,3 +6,9 @@ entity Books_1
     title : String;
     stock : Integer;
 }
+
+entity PEN
+{
+    key ID : UUID
+        @Core.Computed;
+}

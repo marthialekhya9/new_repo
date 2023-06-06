@@ -7,17 +7,6 @@ entity Books_1
     stock : Integer;
 }
 
-entity PEn_1
-{
-    key ID : UUID
-        @Core.Computed;
-}
-
-entity Entity1
-{
-    key ID : UUID
-        @Core.Computed;
-}
 
 entity Entity2
 {

@@ -4,7 +4,7 @@ entity Product
 {
     key productId : Integer;
     productName : String;
-    price : Integer;
+  
 }
 
 entity Customer
